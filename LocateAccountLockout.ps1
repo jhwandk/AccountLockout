@@ -1,7 +1,7 @@
 # Author: Jinhwan Kim
 
 # Define the list of server names
-$serverNames = @("st1resdc01", "st1usrdc01", "st2usrdc01", "st3usrdc01", "hqdc1", "st3hqdc01", "resdc01", "usdc1")
+$serverNames = @("server1", "server2", "server3", "server4")
 $eventID = 4740
 $timeFrame = (24 * 3600000)
 $credentials = Get-Credential
